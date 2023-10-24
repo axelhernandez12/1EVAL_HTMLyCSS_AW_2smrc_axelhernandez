@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family:"Doom";
+    src: url("../fuentes/AmazDooMRight.ttf");
+}
+p{
+    font-family:"Doom", Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family:"Doom", Verdana, Geneva, Tahoma, sans-serif;
+    
+}
