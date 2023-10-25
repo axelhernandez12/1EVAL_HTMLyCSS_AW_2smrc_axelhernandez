@@ -1,0 +1,10 @@
+ul{
+    list-style-image: url("../imagenes/ronalchiquito.jpeg");
+}
+ol{
+    list-style-type: lower-roman;
+}
+li.Ronaldino{
+    background-color: lightblue;
+    
+}
