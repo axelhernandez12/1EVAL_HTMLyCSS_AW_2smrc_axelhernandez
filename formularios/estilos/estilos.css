@@ -10,3 +10,7 @@ body{
 p{
     color: red;
 }
+input:checked{
+    border: none;
+    outline: solid green;
+}
