@@ -1,12 +1,56 @@
 *{
-  background-color: gray;
+  background-color: #6D524C;
   box-sizing: border-box;
 }
+/* Estilos barra lateral /*/
 .fixed-sidebar{
     border: 2px solid;
-    width: 200px;
+    width: 60px;
+    padding: 2px;
+    height: 300px;
+    position: fixed;
+    top: 200px;
+    left: 2px;
 
 }
-div img{
+div.fixed-sidebar img{
     width: 50px ;
+    height: 50px;
+}
+div.fixed-sidebar ul{
+    list-style-type: none;
+}
+/*/Estilos del area principal /*/
+.container{
+  border: 2px solid;
+  width: 80%;
+  height: 500px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  background-color: lightgreen;
+}
+figure img{
+  width: 200px;
+  height: 200px;
+}
+figure{
+  background-color: white;
+  padding: 3px;
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 260px;
+}
+figcaption{
+    background-color: white;
+    text-align: center;
+
+}
+.nav-item{
+    display: inline-block;
+    padding-right: 50px;
+    background-color: #6D524C;
+}
+nav{
+    background-color: black;
 }
