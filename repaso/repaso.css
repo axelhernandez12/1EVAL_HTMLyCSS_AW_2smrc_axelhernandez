@@ -1,0 +1,59 @@
+nav{
+    background-color: blueviolet;
+    height: 60px;
+    color: aqua;
+    
+}
+.nav-item{
+    display: inline;
+    margin: 10px;
+    padding: 30px;
+}
+#birras{
+   margin-left: 600px;
+}
+.cervesa{
+    text-align: center;
+    color: blue;
+    border: solid 2 palevioletred;
+    font-size: 30px;
+}
+hr{
+    width: 300px;
+    border: solid 2px palevioletred;
+}
+.open {
+    display: flex;
+    justify-content: center;
+  
+}
+figcaption{
+    text-align: center;
+    color: blue;
+}
+.botella img {
+    float: left;
+    margin-left:25% ;
+    width: 20%;
+}
+.botella div{
+    float: right;
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+}
+.maqueta::first-letter {
+    border-right:1px solid #121867;
+    border-bottom: 1px solid  #121867 ;
+    color: rgb(243, 55, 132);
+    font-size: 2em;
+    font-weight: 2em;
+    margin-right: 10px;
+    padding-right: 10px;
+    background-color: green;
+    font-size: 40px;
+}
+.maqueta{
+    font-size: 30px;
+    margin-right: 150px;
+}
