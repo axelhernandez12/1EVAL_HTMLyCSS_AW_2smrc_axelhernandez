@@ -1,0 +1,52 @@
+.container{
+    margin: 20px auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+nav div{
+    padding: 10px;
+    display: inline-block;
+    width: 15%;
+}
+.sidebar{
+    background-color: black;
+    float: left;
+    color: white;
+    margin-top: 30px;
+    height: 500px;
+    width: 15%;
+}
+.sidebar div{
+    padding: 10px;
+}
+section.courses{
+    float: left;
+    margin-left: 5%;
+    width: 80%;
+}
+.courses{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 0.8em;
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 33%;
+}
+.courses img{
+    width: 50%;
+}
+.articles{
+    column-count: 3;
+    float: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 80%;
+}
