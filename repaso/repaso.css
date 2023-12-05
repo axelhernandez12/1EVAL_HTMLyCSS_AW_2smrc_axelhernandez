@@ -1,3 +1,4 @@
+
 nav{
     background-color: blueviolet;
     height: 60px;
@@ -54,6 +55,10 @@ figcaption{
     font-size: 40px;
 }
 .maqueta{
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 150px;
+}
+.galeria img{
+    width: 20%;
+    float: left;
 }
